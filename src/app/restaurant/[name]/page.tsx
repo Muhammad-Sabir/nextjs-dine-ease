@@ -1,7 +1,7 @@
 export default function RestaurantDetails({
-	params,
+  params,
 }: {
-	params: { name: string };
+  params: { name: string };
 }) {
-	return <div>Restaurant Details = {params.name}</div>;
+  return <div>Restaurant Details = {params.name}</div>;
 }

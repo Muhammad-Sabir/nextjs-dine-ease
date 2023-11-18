@@ -1,7 +1,7 @@
 export default function Reserve({
-	params,
+  params,
 }: {
-	params: { restaurantName: string };
+  params: { restaurantName: string };
 }) {
-	return <div>Reserve at = {params.restaurantName}</div>;
+  return <div>Reserve at = {params.restaurantName}</div>;
 }

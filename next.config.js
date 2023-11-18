@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.canva.com",
+        port: "",
+        pathname: "/design/**/**",
+      },
+    ],
+  },
+};
 
 module.exports = nextConfig;
