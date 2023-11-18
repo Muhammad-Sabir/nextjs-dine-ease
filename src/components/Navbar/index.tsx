@@ -5,7 +5,7 @@ import logo from "$/logo.png";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-7">
+    <nav className="bg-tertiary sticky top-0 flex items-center justify-between px-7">
       <Image src={logo} alt="Img" width={140} height={70} />
 
       <Link
